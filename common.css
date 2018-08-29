@@ -1,0 +1,540 @@
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('fonts/futura-bold-webfont.eot');
+    src: url('fonts/futura-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/futura-bold-webfont.woff') format('woff'),
+         url('fonts/futura-bold-webfont.ttf') format('truetype'),
+         url('fonts/futura-bold-webfont.svg#FuturaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TitanOneRegular';
+    src: url('fonts/TitanOne-Regular-webfont.eot');
+    src: url('fonts/TitanOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TitanOne-Regular-webfont.woff') format('woff'),
+         url('fonts/TitanOne-Regular-webfont.ttf') format('truetype'),
+         url('fonts/TitanOne-Regular-webfont.svg#TitanOneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MEgalopolisExtraRegular';
+    src: url('fonts/megalopolisextra-webfont.eot');
+    src: url('fonts/megalopolisextra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/megalopolisextra-webfont.woff') format('woff'),
+         url('fonts/megalopolisextra-webfont.ttf') format('truetype'),
+         url('fonts/megalopolisextra-webfont.svg#MEgalopolisExtraRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'WellfleetRegular';
+    src: url('fonts/Wellfleet-Regular-webfont.eot');
+    src: url('fonts/Wellfleet-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Wellfleet-Regular-webfont.woff') format('woff'),
+         url('fonts/Wellfleet-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Wellfleet-Regular-webfont.svg#WellfleetRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	margin:0;
+	padding:0;
+	background-color: #fff7d9;
+	color: #2c355d;
+	font: 14px 'WellfleetRegular', Helvetica, Arial, sans-serif;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+hr{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 2px dashed #fff;
+}
+
+#container{
+	min-height: 100%;
+}
+
+#news{
+	vertical-align: middle;
+	text-align: center;
+	padding-left: 25px;
+	font-size: 72px;
+}
+
+#bio{
+	vertical-align: top;
+	text-align: left;
+	padding-left: 25px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+tr.spaceUnder > td
+{
+  padding-bottom: 1em;
+}
+
+#head{
+	width: 100%;
+	padding-bottom: 0px;
+}
+
+#bios{
+	width: 100%;
+}
+
+#contact a, #contact a:visited{
+	color:#EE7F38;
+	text-decoration:none;
+	width:100%;
+}
+#contact a:hover, #contact a.selected{
+	background-color: #fff;
+	color:#2c355d;
+}
+
+form {
+	padding:0;
+	margin:0;
+}
+a img { border:0; }
+a:hover {
+	text-decoration:none;
+}
+
+.clearfix:after,
+#frame:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix, 
+#frame { display:inline-block; }
+/* Hides from IE-mac \*/
+* html .clearfix,
+* html #frame { height:1%; }
+.clearfix,#frame { display:block; }
+/* End hide from IE-mac */
+
+#top{
+	background-color:#fff7d9;
+	width:100%;
+	display:block;
+	height:130px;
+}
+
+#box{
+	text-align: left;
+	color: #fff;
+	background-color:#2c355d;
+	min-width: 881px;
+	max-width: 881px;
+	padding: 40px 40px 40px 40px;
+	margin: 0px 60px 0px 40px;
+	margin-bottom: 40px;
+	display:block;
+}
+
+#content{
+	overflow: auto;
+	padding-bottom: 70px;
+}
+
+#bottom{
+	text-align: center;
+	color: #a3a3a3;
+	background-color: #ffffff;
+	width: 100%;
+	height: 20px;
+	margin-top: -70px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-family: sans-serif;
+/*	display: block;*/
+/*	bottom:0;*/
+	clear: both;
+	position: relative;
+}
+
+#frame {
+	padding-bottom:40px;
+	padding-top:30px;
+}
+
+#nav, 
+#frame,
+#header .titles {
+	position:relative;
+	display:block;
+	margin:0 auto;	
+}
+
+#nav,
+#frame {
+	width:960px;
+}
+
+/* Header stuff */
+
+h1{
+	font-family: "WellfleetRegular";
+	color: #fff;
+	font-size: 36px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+#section-title{
+	color: #fff;
+	font-size: 36px;
+	padding-top: 0px;
+}
+
+titler{
+	
+}
+
+/* Nav stuff */
+
+#nav #logo{
+	height:80px;
+	display:block;
+	float:left;
+	margin:20px 0 0px 0px;
+}
+
+#nav a, .titleFace {
+	font-family:'MEgalopolisExtraRegular', Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6, .titleFace {
+	font-family:'WellfleetRegular', Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	letter-spacing: 1px;
+}
+
+#nav a,
+.titleFace {
+font-size: 18px;
+display: block;
+}
+
+#nav ul{
+	margin:0px 0 0 0;
+	display:block;
+	width:600px;
+	padding-top:40px;
+	float:right;
+	list-style-type:none;
+	position:relative;
+}
+#nav ul li{
+	display:block;
+	float:right;
+	width:110px;
+	margin:0;
+	position:relative;
+}
+
+
+#nav ul li a, 
+#nav ul li a:visited{
+	color:#EE7F38;
+	text-decoration:none;
+	letter-spacing:.1em;
+	display:block;
+	width:100%;
+	padding:15px 0;
+	text-align:center;
+}
+#nav ul li a:hover, 
+#nav ul li a.selected{
+	color:#fff !important;
+}
+#nav ul li:hover a{
+	background-color: #2c355d;
+	color:#fff;
+}
+
+/* Structure */
+
+.sidebar {
+	display: block;
+    float: left;
+    width: 300px;
+}
+.highlights {
+	display:block;
+	position:relative;
+}
+.sidebar h3{
+	background-color:transparent;
+	background-image:url('../images/sidebar-headers.png');
+	color:#fff;
+/*	text-transform:uppercase;*/
+	margin:0 10px 0 0;
+	padding:0;
+	height:66px;
+	letter-spacing:.075em;
+	display:inline-block;
+	width:290px;
+}
+.sidebar h3 span{
+	margin:11px 22px;
+	display:block;
+}
+.sidebar .content {
+	background-color:#2fbee6;
+	background-image:url('../images/sidebar-gradient.jpg');
+	background-repeat:no-repeat;
+	margin-top:-18px;
+	display:inline-block;
+	color:#fff;
+	font-weight:bold;
+	font-size:14px;
+	margin-bottom:25px;
+	width:220px;
+	padding:15px 25px;
+}
+.sidebar .related a{
+	display:block;
+	margin:0;
+	padding:5px 0;
+	color:#3399cc;
+}
+.sidebar .related .content {
+	background:#dbe9ff;
+}
+.sidebar .content img {
+	display:block;
+}
+.sidebar .content ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.sidebar .content li span {
+	display:block;
+	padding-top:5px;
+}
+.sidebar .content p,
+.sidebar .content li span {
+	font-weight:normal;
+	color:#061f33;
+	line-height:1.2;
+}
+.sidebar .content ul li{
+	margin:10px 0;	
+	display:inline-block;
+}
+.sidebar .content ul li ul{
+	color:#000;
+	list-style-type:disc;
+	margin:4px 0 0 20px;
+}
+.sidebar .content ul li ul li{
+	margin:4px 0;
+	display:list-item;
+	font-weight:normal;
+}
+.sidebar .content p, 
+.sidebar .content h4, 
+.sidebar .content h5, 
+.sidebar .content h6{
+	padding:0;
+	margin:0 0 10px;
+}
+.sidebar .content h5 {
+	color:#fff;
+	font-size:16px;
+}
+
+.sidebar .content h4 {
+	color:#0a598b;
+	font-size:22px;
+	margin-bottom:10px;
+}
+.sidebar a {
+	color:#006997;
+}
+.loader {
+	background-color:#e6e8eb;
+	background-image:url('../images/loader.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.errorMessage {
+	text-align:center;
+	padding:70px 0 50px;
+}
+.fullColumn {
+	width:940px !important;
+	margin:0 10px !important;
+}
+.bodyCopy {
+	margin:0 0 30px;
+}
+.bodyCopyEmphasis {
+	font-size:18px;
+	margin:0 20px 20px;
+	line-height:28px;
+}
+
+.column {
+	width:600px;
+	margin:0 30px;
+	font-size:16px;
+	line-height:26px;
+	float:left;
+}
+.column h2{
+	color:#e8385e;
+	font-size:24px;
+	padding:0;
+	margin:0 0 20px;
+	line-height:1.2;
+}
+.column h3,
+.column p {
+	padding:0;
+	margin:0 0 20px;
+}
+.column a {
+	color:#1db2dc;
+}
+
+.navigation {
+	text-align:center;
+	line-height:22px;	
+}
+
+.navigation .next,
+.navigation .previous,
+.navigation .parent {
+	background:#ccc;
+	margin:0 5px;
+	font-size:14px;
+	background-position:right top;
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+.navigation .disabled,
+.navigation a {
+	margin-right:42px;
+	padding:10px 15px;
+	font-family:'MEgalopolisExtraRegular', Helvetica, Arial, sans-serif;
+	text-decoration:none;
+/*	text-transform:uppercase;*/
+	letter-spacing:.1em;
+	display:inline-block;
+	background-color:#2fbee6;
+	color:#fff;
+}
+.navigation a:hover {
+	background-color:#e8385e;
+	color:#fff;
+}
+
+.navigation .next {
+	background-image:url('../images/arrow-right.png');
+}
+
+.navigation .parent {
+	background-image:url('../images/arrow-up.png');
+}
+
+.navigation .previous {
+	background-image:url('../images/arrow-left.png');
+}
+
+/* Footer styles */
+
+#footer{
+	width:100%;
+	height:80px;
+	overflow:hidden;
+	margin-top:-17px;
+	position:relative;
+	z-index:10;
+}
+#footer .ribbon,
+#footer .content {
+	position:absolute;
+}
+#footer .ribbon{
+	overflow:hidden;
+	height:80px;
+	background-image:url('../images/footer-bg.png');
+	background-color:#061f33;
+}
+#footer .content{
+	width:960px;
+	height:80px;
+	background-image:url('../images/footer-main.png');
+}
+#footer .content div {
+	display:block;
+	width:580px;
+	padding-top:32px;
+	margin:0 auto;
+	text-align:center;
+}
+#footer .content div, 
+#footer .content div a, 
+#footer .content div a:visited {
+	color:#2fbee6;
+	font-family:'MEgalopolisExtraRegular', Helvetica, Arial, sans-serif;
+	text-decoration:none;
+/*	text-transform:uppercase;*/
+	letter-spacing:.1em;
+}
+#footer .content div a:hover{
+	color:#fff;
+}
+#footer .content div img {
+	display:block;
+	float:left;
+	margin:0 20px 0 30px;
+}
+#footer .content div span{
+	display:block;
+	float:left;
+	margin-top:6px;
+}
+#copyright{
+	display:block;
+	width:960px;
+	text-align:center;
+	margin:10px auto;
+}
+
+#build_time {
+	text-align:center;
+	margin:20px;
+}
